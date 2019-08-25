@@ -42,6 +42,7 @@ def hit?(arg)
   else 
     invalid_command
     prompt_user()
+    user_input = get_user_input()
   end
   cards
 end
