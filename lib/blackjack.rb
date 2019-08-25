@@ -40,7 +40,8 @@ def hit?(arg)
   elsif user_input =="s"
     return cards
   else 
-    return invalid_command
+    invalid_command
+    prompt_user()
   end
   cards
 end
