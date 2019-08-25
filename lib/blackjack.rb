@@ -31,7 +31,7 @@ def initial_round
 end
 
 def hit?(arg)
-  cards = initial_round()
+  cards = arg
   prompt_user()
   user_input = get_user_input()
   if user_input =="h"
@@ -41,7 +41,7 @@ def hit?(arg)
     return cards
   else invalid_command
   end
-  final_cards
+  cards
 end
 
 def invalid_command
