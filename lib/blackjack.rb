@@ -36,7 +36,7 @@ def hit?(arg)
   user_input = get_user_input()
   if user_input =="h"
     new_card=deal_card()
-    final_cards = cards+new_card
+    cards = cards+new_card
   elsif user_input =="s"
     return cards
   else invalid_command
