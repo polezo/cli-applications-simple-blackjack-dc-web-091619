@@ -39,7 +39,8 @@ def hit?(arg)
     cards = cards+new_card
   elsif user_input =="s"
     return cards
-  else invalid_command
+  else 
+    return invalid_command
   end
   cards
 end
